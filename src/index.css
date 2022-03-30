@@ -1,13 +1,124 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.logo{
+  width: 80px;
+  margin-right: 20px;
+}
+.homeContainer{
+  background-image: url("../public/assesst/homepage1.png");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+.LogoHeader{
+  width: 50%;
+  object-fit: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.WelcomeSen{
+  margin-top: 30px;
+  margin-left: 40px;
+  font-weight: 500;
+  font-style: italic ;
+}
+.CompanyTitle{
+  margin-left: 60px;
+  font-weight: bold;
+  
+}
+.CompanyTitle span
+ {
+  color: #7BC181;
+  
+}
+.Ptext{
+  margin-left: 30px;
+  margin-top: 10;
+}
+.SecondSections{
+
+  background-color: #C4E2C0;
+ 
+  width: 100%;
+}
+.WhoContainer{
+  margin-top: 30px;
+  padding: 10px;
+  
+}
+.whotitle{
+  margin-top: 20px;
+  margin-left: 40px;
+  font-weight: bold;
+}
+.TextWho{
+  margin-top: 10px;
+  margin-left: 50px;
+  font-style: italic;
+
+}
+.WhoImg{
+width: 80%;
+border-radius: 15px;
+margin: 10px;
+}
+
+.Product1Ttile{
+  margin-left: 80px;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #7BC181;
+
+}
+.Product1Text{
+  margin-left: 90px;
+  margin-top: 10px;
+  margin: 20px;
+}
+.ProductImg1{
+  width: 100%;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin: 20px;
+}
+.ProductsCardContainer{
+  background-image: url("../public/assesst/cardsHome.png");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  justify-items: center;
+  padding-top: 20px;
+
+}
+
+.card{
+margin: 20px;
+
+}
+.card-img-top{
+  height: 250px;
+}
+.FollowContainer{
+
+  background-color: #C4E2C0;
+}
+.FollowTitle{
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+}
+.socialDiv{
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 30px;
 }

@@ -1,0 +1,47 @@
+.UploadContainer{
+    background-color: #C4E2C0;
+
+    border-radius: 30px;
+    padding: 20px;
+}
+.HeadTitle{
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+}
+.InputFirst{
+    border-width: 2px;
+    border-radius: 7px;
+    border-color: #4C9552;
+    width: 300px;
+    margin: 10px;
+   
+}
+.TextArea{
+    border-width: 2px;
+    border-radius: 7px;
+    border-color: #4C9552;
+    width: 300px;
+    margin: 10px;
+    height: 200px; 
+}
+.UploadContainer h3{
+    
+    font-style: italic;
+    margin-left: 10px;
+
+}
+.tableContainer table {
+  border: 2px solid forestgreen;
+  width: 800px;
+  height: 200px;
+  
+}
+  
+.tableContainer th {
+  border-bottom: 1px solid black;
+}
+  
+.tableContainer td {
+  text-align: center;
+}

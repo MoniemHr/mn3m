@@ -1,0 +1,85 @@
+.ContactHeader{
+    margin-bottom: 20px;
+    background-color: #4C9552;
+}
+.ContactHeaderImg{
+    width: 100%;
+    object-fit: cover;
+}
+
+.ContactForm{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #4C9552;
+}
+.ContactForm h1{
+    margin: 15px;
+    color: #4C9552;
+    font-weight: bold;
+    text-align: center;
+}
+.ContactForm h5{
+    margin: 10px;
+    color: #4C9552;
+    font-weight: bold;
+}
+.ContactForm input{
+    margin: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    border-color: #4C9552;
+    width: 70%;
+    height: 40px;
+}
+.ContactForm textarea{
+    margin: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    border-color: #4C9552;
+    width: 70%;
+    height: 100px;
+}
+.ContactForm button{
+    margin: 20px;
+    border-radius: 15px;
+    
+}
+.MapRight{
+    width:95%;
+    background-color: #C4E2C0;
+    border-radius: 20px;
+    margin: 5px;
+    padding-left: 10px;
+}
+.MapRight h1{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+.MapRight p{
+    font-weight: bold;
+    text-align: left;
+    margin-top: 25px;
+    margin: 20px;
+}
+.MapRight h4{
+    font-weight: bold;
+    color: white;
+    font-style:italic ;
+}
+.LogoFacebok{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.socialP{
+    text-align: center;
+    margin: 20px;
+}
+.SocialMediaContact{
+    height: 200px;
+    background-color: #4C9552;
+
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.HeadContainer{
+  background-color: white;
+}
+.ImgHeader{
+    object-fit: cover;
+}
+.TitleHead{
+    font-size: 70px;
+    color: #4C9552;
+    font-weight: bold;
+}
+.PHead{
+    margin: 20px;
+}
+.btnHead{
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.S2Ttıle{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+}
+.S2P{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.ServicesCard{
+    border: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 20px;
+}
+.ImgServices{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+
+}
+.marginTop{
+    margin-top: 40px;
+}
+.ServicesTitle{
+    color: #4C9552;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.ServicesP{
+    color: white;
+}
+.card-header{
+    font-weight: bold;
+    font-size: 30px;
+    color: #4C9552;
+}
+.card-body{
+    background-color: #4C9552;
+    color: #ffffff;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.card{
+    border-radius: 10px;
+}
+.WhereTitle{
+    font-style: italic;
+    margin: 20px;
+    font-weight: bold;
+    color: #4C9552;
+}
+.Flocation{
+    width: 50%;
+    background-color: #4C9552;
+}
+.city1{
+    margin: 20px;
+    font-weight: bold;
+    color: white;
+}
+.LocatinIconImg{
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+}
+.Slocation{
+    width: 50%;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #4C9552;
+}
+.city2{
+    margin: 23px;
+    font-weight: bold;
+    color: #4C9552;
+}
+.fourthSection p {
+    font-weight: 800;
+    font-size: 20px;
+}

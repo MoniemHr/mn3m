@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes ,Route } from 'react-router-dom';
+import Navbar from "./components/Navbar";
+import "./index.css";
+import "./AboutCss.css";
+import "./ContactPage.css";
+import "./UploadStyle.css";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Category from "./components/Category";
+import AdminPanel from "./components/adminPanel";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <div>
+    <Navbar/>
+    <Routes>
+      <Route path="/" element={<Home/>}> </Route>
+      <Route path="/about" element={<About/>}> </Route>
+      <Route path="/contact" element={<Contact/>}> </Route>
+      <Route path="/Category" element={<Category/>}> </Route>
+      <Route path="/AdminPanel" element={<AdminPanel/>}> </Route>
+    </Routes>
+  </div>
+  )
 }
 
 export default App;
+
+
