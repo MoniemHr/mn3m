@@ -42,7 +42,7 @@ const Contact = () => {
   return (
     <>
     <div className="ContactHeader">
-    <img className='ContactHeaderImg' src='../../assesst/ContactHeader.png' />
+    <img className='ContactHeaderImg' src='../../MoniemHr/mn3m.git/assesst/ContactHeader.png' />
     </div>
       <div className="contactPage">
         <div className="row">
@@ -57,7 +57,7 @@ const Contact = () => {
                     <div className='col-sm-6'>
                       <div className="row">
                         <div className="col-xs-12 col-sm-12 col-md-12">
-                        <img className='LogoFacebok' src='../../assesst/facebook.png' />
+                        <img className='LogoFacebok' src='../../MoniemHr/mn3m.git/assesst/facebook.png' />
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-12">
                         <h4 className='socialP'>facebook/Thearomabest</h4>
@@ -69,7 +69,7 @@ const Contact = () => {
                     <div className='col-sm-6'>
                       <div className="row">
                       <div className="col-xs-12 col-sm-12 col-md-12">
-                        <img className='LogoFacebok' src='../../assesst/instagram.png' />
+                        <img className='LogoFacebok' src='../../MoniemHr/mn3m.git/assesst/instagram.png' />
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-12">
                         <h4 className='socialP'>Inastgram/Thearomabest </h4>

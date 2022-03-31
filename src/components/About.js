@@ -15,7 +15,7 @@ const About = () => {
           </div>
         </div>
         <div className="col-xs-12 col-sm-6 text-center">
-          <img className='ImgHeader' src='../../assesst/aboutHeader.png' />
+          <img className='ImgHeader' src='../../MoniemHr/mn3m.git/assesst/aboutHeader.png' />
         </div>
       </div>
       <div className="SecondSections">
@@ -24,7 +24,7 @@ const About = () => {
             <h1 className='S2Ttıle'>Our Services</h1>
             <div className="m-4 row ">
               <div className="col-sm-2 marginTop">
-                <img className='ImgServices ' src='../../assesst/packages.png' />
+                <img className='ImgServices ' src='../../MoniemHr/mn3m.git/assesst/packages.png' />
               </div>
               <div className="col-sm-8">
                 <h3 className='ServicesTitle'>Wholesale</h3>
@@ -35,7 +35,7 @@ const About = () => {
             </div>
             <div className="m-4 row ">
               <div className="col-sm-2 marginTop">
-                <img className='ImgServices ' src='../../assesst/package2.png' />
+                <img className='ImgServices ' src='../../MoniemHr/mn3m.git/assesst/package2.png' />
               </div>
               <div className="col-sm-8">
                 <h3 className='ServicesTitle'>Selling By Pieces</h3>
@@ -46,7 +46,7 @@ const About = () => {
             </div>
             <div className="m-4 row ">
               <div className="col-sm-2 marginTop">
-                <img className='ImgServices ' src='../../assesst/freedelivery.png' />
+                <img className='ImgServices ' src='../../MoniemHr/mn3m.git/assesst/freedelivery.png' />
               </div>
               <div className="col-sm-8">
                 <h3 className='ServicesTitle'>Shipping & packing</h3>
@@ -58,7 +58,7 @@ const About = () => {
           </div>
           <div className="col-xs-12 col-sm-6">
 
-            <img className='ImgServices my-4' src='../../assesst/Services1.jpg' />
+            <img className='ImgServices my-4' src='../../MoniemHr/mn3m.git/assesst/Services1.jpg' />
 
 
 
@@ -111,7 +111,7 @@ const About = () => {
           <div className="Flocation">
             <div className="row">
               <div className="iconLocation col-xs-4 col-sm-4 text-center">
-              <img className='LocatinIconImg ' src='../../assesst/location.png' />
+              <img className='LocatinIconImg ' src='../../MoniemHr/mn3m.git/assesst/location.png' />
               </div>
               <div className="InfoLocation col-xs-8 col-sm-8">
                 <h3 className=' text-center city1'>Lebanon</h3>
@@ -125,7 +125,7 @@ const About = () => {
           <div className="Slocation">
             <div className="row">
               <div className="iconLocation col-xs-4 col-sm-4 text-center">
-              <img className='LocatinIconImg ' src='../../assesst/locationGreen.png' />
+              <img className='LocatinIconImg ' src='../../MoniemHr/mn3m.git/assesst/locationGreen.png' />
               </div>
               <div className="InfoLocation col-xs-8 col-sm-8">
                 <h3 className=' text-center city2'>Sudan</h3>
@@ -141,7 +141,7 @@ const About = () => {
         <div className="Slocation">
             <div className="row">
               <div className="iconLocation col-xs-4 col-sm-4 text-center">
-              <img className='LocatinIconImg ' src='../../assesst/locationGreen.png' />
+              <img className='LocatinIconImg ' src='../../MoniemHr/mn3m.git/assesst/locationGreen.png' />
               </div>
               <div className="InfoLocation col-xs-8 col-sm-8">
                 <h3 className=' text-center city2'>Syria</h3>
@@ -155,7 +155,7 @@ const About = () => {
           <div className="Flocation">
             <div className="row">
               <div className="iconLocation col-xs-4 col-sm-4 text-center">
-              <img className='LocatinIconImg ' src='../../assesst/location.png' />
+              <img className='LocatinIconImg ' src='../../MoniemHr/mn3m.git/assesst/location.png' />
               </div>
               <div className="InfoLocation col-xs-8 col-sm-8">
                 <h3 className=' text-center city1'>Turkey</h3>

@@ -10,7 +10,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Category from "./components/Category";
 import AdminPanel from "./components/adminPanel";
-
+import Footer from "./components/Footer";
 const App = () => {
   return (
   <div>
@@ -21,7 +21,10 @@ const App = () => {
       <Route path="/contact" element={<Contact/>}> </Route>
       <Route path="/Category" element={<Category/>}> </Route>
       <Route path="/AdminPanel" element={<AdminPanel/>}> </Route>
+      
     </Routes>
+    <Footer/>
+
   </div>
   )
 }

@@ -3,6 +3,13 @@
 * {
   font-family: 'Open Sans', sans-serif;
 }
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 a{
   text-decoration: none;
 }
@@ -45,8 +52,12 @@ a{
 .SecondSections{
 
   background-color: #C4E2C0;
- 
   width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+  
 }
 .WhoContainer{
   margin-top: 30px;
