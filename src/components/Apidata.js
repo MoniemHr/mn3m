@@ -10,7 +10,7 @@ const Data = [
     {
         id:2,
         title:"Package 2",
-        image :"../../../MoniemHr/mn3m.git/public/assesst/ContactHeader.png",
+        image :"../MoniemHr/mn3m.git/image/Perfume1.png",
         category:"PerfumeGlass"
     },
     {

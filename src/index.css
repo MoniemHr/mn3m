@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "opensans";
 }
 body{
     width: 100%;
@@ -10,9 +10,32 @@ body{
     padding: 0px;
     overflow-x: hidden; 
 }
-a{
+
+a {
   text-decoration: none;
+  font-weight: bold;
+  margin-right: 20px;
+  color: #C4E2C0;
+  margin: 5px;
 }
+.collapse ul a:hover { color: #7BC181 !important; }
+.active {
+  color: #7BC181;
+  font-size: larger;
+  margin: 20px;
+}
+
+
+.navbar-brand{
+  font-weight: bold;
+  color: #7BC181;
+  margin-left: 10px;
+  font-size: 30px;
+}
+.navbar-light{
+  color: #7BC181;
+}
+
 .logo{
   width: 80px;
   margin-right: 20px;
@@ -46,8 +69,13 @@ a{
   
 }
 .Ptext{
-  margin-left: 30px;
-  margin-top: 10;
+  margin-left: 40px;
+  margin-top: 20px;
+  line-height: 35px;
+  font-weight: 400;
+  font-family: "opensans";
+  font-size: 24px;
+  color: #4C9552;
 }
 .SecondSections{
 
@@ -62,21 +90,33 @@ a{
 .WhoContainer{
   margin-top: 30px;
   padding: 10px;
+  width: auto;
   
 }
 .whotitle{
   margin-top: 20px;
   margin-left: 40px;
   font-weight: bold;
+  font-family: "opensans";
 }
 .TextWho{
   margin-top: 10px;
   margin-left: 50px;
   font-style: italic;
+  margin-top: 20px;
+  line-height: 35px;
+  font-weight: 400;
+  font-family: "opensans";
+  font-size: 24px;
 
 }
 .WhoImg{
-width: 80%;
+width: 100%;
+border-radius: 15px;
+margin: 10px;
+}
+.WhoImg2{
+  width: 100%;
 border-radius: 15px;
 margin: 10px;
 }
@@ -86,12 +126,18 @@ margin: 10px;
   margin-top: 30px;
   font-weight: bold;
   color: #7BC181;
+  font-family: "opensans";
 
 }
 .Product1Text{
   margin-left: 90px;
   margin-top: 10px;
   margin: 20px;
+  
+  line-height: 35px;
+  font-weight: 400;
+  font-family: "opensans";
+  font-size: 24px;
 }
 .ProductImg1{
   width: 100%;
@@ -100,14 +146,15 @@ margin: 10px;
   margin: 20px;
 }
 .ProductsCardContainer{
-  background-image: url("../public/assesst/cardsHome.png");
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  
-  justify-items: center;
-  padding-top: 20px;
+ 
+  width: auto;
+ 
+}
 
+.carousel-item img{
+  height: 300px;
+  object-fit: cover;
+  width: auto;
 }
 
 .card{
@@ -117,14 +164,25 @@ margin: 20px;
 .card-img-top{
   height: 250px;
 }
-.FollowContainer{
-
-  background-color: #C4E2C0;
+.OurSpecialtyP{
+  
+  font-family: "opensans";
+  text-align: left;
+  margin-left: 40px;
+  height: 300px;
+  
+  
+}
+.OurMissionImg{
+  height: 300px;
+  object-fit: cover;
 }
 .FollowTitle{
-  font-weight: bold;
-  color: white;
+  font-weight: bolder;
+  font-size: 50px;
+  color: #4C9552;
   padding: 20px;
+  font-family: "opensans";
 }
 .socialDiv{
   width: 300px;
@@ -132,4 +190,102 @@ margin: 20px;
   background-color: white;
   border-radius: 20px;
   margin: 30px;
+}
+
+.LogoFooter{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  align-items: flex-end;
+  background-color: white;
+}
+.FoteerContainer{
+  
+  background-color: #4C9552;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  
+}
+.FoteerContainer h3{
+  font-weight: bold;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  
+}
+.FoteerContainer h1{
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0px;
+  
+  
+}
+.FoteerContainer p{
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  
+  
+  
+}
+.whoFotter{
+  font-weight: bold;
+  color: white;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  
+}
+.FoteerContainer ul{
+  text-decoration: none;
+}
+.FoteerContainer ul li{
+  list-style: none;
+  font-weight: 600;
+  color: white;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-top: 20px;
+  color: white;
+  
+}
+.iconHero{
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  color: white;
+  
+}
+
+.HeroImage{
+  width: 100%;
+  object-fit: cover;
+}
+.titleHero h1{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 70px;
+margin-left: 30px;
+margin-top: 30px;
+color: #4C9552;
+}
+.titleHero p{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 44px;
+/* or 176% */
+
+letter-spacing: 0.445833px;
+margin-left: 40px;
+margin-top: 20px;
+}
+.HeroButton{
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 20px;
 }

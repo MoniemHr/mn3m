@@ -7,7 +7,10 @@ const About = () => {
         <div className="col-xs-12 col-sm-6">
           <div className="m-5">
             <h1 className='TitleHead'>About Us </h1>
-            <p className='PHead'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan etiam lectus convallis cursus tristique. Etiam pellentesque gravida egestas a nullam eu tempus laoreet risus. Velit lacus, sed ac viverra ut faucibus viverra. Neque, condimentum tellus nec tempor vel. Pellentesque consequat tellus dictum fames. Nibh blandit eu massa gravida ullamcorper sapien nunc. Faucibus dignissim id neque, malesuada cursus posuere et vulputate. Neque, pulvinar enim nisl amet, dui egestas arcu. Adipiscing felis ornare eget ut.</p>
+            <p className='PHead'>It is one of the leading Syrian companies in the field of perfumes since the beginning of the twentieth century
+              At the end of 2009, Aroma Best Perfume started its activity in the Lebanese market, and in 2015 it started its activity in a ready-made perfume filling factory in Sudan,
+              And a follow-up to its path of expansion outside the Syrian market
+              In 2022, it started its activity in the Turkish market to meet market demands, and to be present in the global perfume markets.</p>
             <div className="row m-2">
               <button type="button" class="btn btn-success btnHead" >Contact Us</button>
               <button type="button" class="btn btn-outline-success btnHead">More about us</button>
@@ -68,40 +71,77 @@ const About = () => {
       <div className="ThirdSections">
         <div className="row">
           <div className="col-xs-12 col-sm-3">
-          <div class="card border-success mb-3 text-center" >
-                <div class="card-header">Skin Care</div>
-                <div class="card-body">
+            <div class="card border-success mb-3 text-center" >
+              <div class="card-header">Skin Care</div>
+              <div class="card-body">
 
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque sed laoreet nec id amet at. Adipiscing iaculis eget eget tincidunt justo, fermentum nec. Orci sapien sollicitudin eu bibendum. Aliquet placerat enim sem imperdiet. Porttitor nulla velit augue ut magna rhoncus ipsum euismod. Urna diam urna, commodo eget enim, nibh nibh at. Nulla in porttitor odio ac venenatis aliquet ac semper purus.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque sed laoreet nec id amet at. Adipiscing iaculis eget eget tincidunt justo, fermentum nec. Orci sapien sollicitudin eu bibendum. Aliquet placerat enim sem imperdiet. Porttitor nulla velit augue ut magna rhoncus ipsum euismod. Urna diam urna, commodo eget enim, nibh nibh at. Nulla in porttitor odio ac venenatis aliquet ac semper purus.</p>
+              </div>
+              <div className="row">
+                <div className="col-xs-6 col-md-6">
+                  <img className='CardImg ' src='../../MoniemHr/mn3m.git/assesst/skincare.png' />
+
+                </div>
+                <div className="col-xs-6 col-md-6">
+                  <button type="button" class="btn btn-success btnCard" >Contact Us</button>
                 </div>
               </div>
+            </div>
           </div>
           <div className="col-xs-12 col-sm-3 text-center">
-          <div class="card border-success mb-3" >
-                <div class="card-header">Body Care</div>
-                <div class="card-body">
-               
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque sed laoreet nec id amet at. Adipiscing iaculis eget eget tincidunt justo, fermentum nec. Orci sapien sollicitudin eu bibendum. Aliquet placerat enim sem imperdiet. Porttitor nulla velit augue ut magna rhoncus ipsum euismod. Urna diam urna, commodo eget enim, nibh nibh at. Nulla in porttitor odio ac venenatis aliquet ac semper purus.</p>
+            <div class="card border-success mb-3" >
+              <div class="card-header">Body Care</div>
+              <div class="card-body">
+
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque sed laoreet nec id amet at. Adipiscing iaculis eget eget tincidunt justo, fermentum nec. Orci sapien sollicitudin eu bibendum. Aliquet placerat enim sem imperdiet. Porttitor nulla velit augue ut magna rhoncus ipsum euismod. Urna diam urna, commodo eget enim, nibh nibh at. Nulla in porttitor odio ac venenatis aliquet ac semper purus.</p>
+              </div>
+              <div className="row">
+                <div className="col-xs-6 col-md-6">
+                  <img className='CardImg ' src='../../MoniemHr/mn3m.git/assesst/skincare.png' />
+
+                </div>
+                <div className="col-xs-6 col-md-6">
+                  <button type="button" class="btn btn-success btnCard" >Contact Us</button>
                 </div>
               </div>
+            </div>
           </div>
           <div className="col-xs-12 col-sm-3 text-center">
-          <div class="card border-success mb-3" >
-                <div class="card-header">Perfume Glass</div>
-                <div class="card-body">
-                  
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque sed laoreet nec id amet at. Adipiscing iaculis eget eget tincidunt justo, fermentum nec. Orci sapien sollicitudin eu bibendum. Aliquet placerat enim sem imperdiet. Porttitor nulla velit augue ut magna rhoncus ipsum euismod. Urna diam urna, commodo eget enim, nibh nibh at. Nulla in porttitor odio ac venenatis aliquet ac semper purus.</p>
+            <div class="card border-success mb-3" >
+              <div class="card-header">Perfume Glass</div>
+              <div class="card-body">
+
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque sed laoreet nec id amet at. Adipiscing iaculis eget eget tincidunt justo, fermentum nec. Orci sapien sollicitudin eu bibendum. Aliquet placerat enim sem imperdiet. Porttitor nulla velit augue ut magna rhoncus ipsum euismod. Urna diam urna, commodo eget enim, nibh nibh at. Nulla in porttitor odio ac venenatis aliquet ac semper purus.</p>
+              </div>
+              <div className="row">
+                <div className="col-xs-6 col-md-6">
+                  <img className='CardImg ' src='../../MoniemHr/mn3m.git/assesst/PerfumeGlass.jpg' />
+
+                </div>
+                <div className="col-xs-6 col-md-6">
+                  <button type="button" class="btn btn-success btnCard" >Contact Us</button>
                 </div>
               </div>
+            </div>
+
           </div>
           <div className="col-xs-12 col-sm-3 text-center">
-          <div class="card border-success mb-3" >
-                <div class="card-header">Perfume Oil</div>
-                <div class="card-body">
-                 
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque sed laoreet nec id amet at. Adipiscing iaculis eget eget tincidunt justo, fermentum nec. Orci sapien sollicitudin eu bibendum. Aliquet placerat enim sem imperdiet. Porttitor nulla velit augue ut magna rhoncus ipsum euismod. Urna diam urna, commodo eget enim, nibh nibh at. Nulla in porttitor odio ac venenatis aliquet ac semper purus.</p>
+            <div class="card border-success mb-3" >
+              <div class="card-header">Perfume Oil</div>
+              <div class="card-body">
+
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis neque sed laoreet nec id amet at. Adipiscing iaculis eget eget tincidunt justo, fermentum nec. Orci sapien sollicitudin eu bibendum. Aliquet placerat enim sem imperdiet. Porttitor nulla velit augue ut magna rhoncus ipsum euismod. Urna diam urna, commodo eget enim, nibh nibh at. Nulla in porttitor odio ac venenatis aliquet ac semper purus.</p>
+              </div>
+              <div className="row">
+                <div className="col-xs-6 col-md-6">
+                  <img className='CardImg ' src='../../MoniemHr/mn3m.git/assesst/PerfumeOil.jpg' />
+
+                </div>
+                <div className="col-xs-6 col-md-6">
+                  <button type="button" class="btn btn-success btnCard " >Contact Us</button>
                 </div>
               </div>
+            </div>
           </div>
         </div>
       </div>
@@ -111,7 +151,7 @@ const About = () => {
           <div className="Flocation">
             <div className="row">
               <div className="iconLocation col-xs-4 col-sm-4 text-center">
-              <img className='LocatinIconImg ' src='../../MoniemHr/mn3m.git/assesst/location.png' />
+                <img className='LocatinIconImg ' src='../../MoniemHr/mn3m.git/assesst/location.png' />
               </div>
               <div className="InfoLocation col-xs-8 col-sm-8">
                 <h3 className=' text-center city1'>Lebanon</h3>
@@ -125,7 +165,7 @@ const About = () => {
           <div className="Slocation">
             <div className="row">
               <div className="iconLocation col-xs-4 col-sm-4 text-center">
-              <img className='LocatinIconImg ' src='../../MoniemHr/mn3m.git/assesst/locationGreen.png' />
+                <img className='LocatinIconImg ' src='../../MoniemHr/mn3m.git/assesst/locationGreen.png' />
               </div>
               <div className="InfoLocation col-xs-8 col-sm-8">
                 <h3 className=' text-center city2'>Sudan</h3>
@@ -138,10 +178,10 @@ const About = () => {
           </div>
         </div>
         <div className="row">
-        <div className="Slocation">
+          <div className="Slocation">
             <div className="row">
               <div className="iconLocation col-xs-4 col-sm-4 text-center">
-              <img className='LocatinIconImg ' src='../../MoniemHr/mn3m.git/assesst/locationGreen.png' />
+                <img className='LocatinIconImg ' src='../../MoniemHr/mn3m.git/assesst/locationGreen.png' />
               </div>
               <div className="InfoLocation col-xs-8 col-sm-8">
                 <h3 className=' text-center city2'>Syria</h3>
@@ -155,7 +195,7 @@ const About = () => {
           <div className="Flocation">
             <div className="row">
               <div className="iconLocation col-xs-4 col-sm-4 text-center">
-              <img className='LocatinIconImg ' src='../../MoniemHr/mn3m.git/assesst/location.png' />
+                <img className='LocatinIconImg ' src='../../MoniemHr/mn3m.git/assesst/location.png' />
               </div>
               <div className="InfoLocation col-xs-8 col-sm-8">
                 <h3 className=' text-center city1'>Turkey</h3>
@@ -166,7 +206,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          
+
         </div>
       </div>
     </>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes ,Route } from 'react-router-dom';
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import "./index.css";
 import "./AboutCss.css";
 import "./ContactPage.css";
@@ -10,7 +11,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Category from "./components/Category";
 import AdminPanel from "./components/adminPanel";
-import Footer from "./components/Footer";
+
 const App = () => {
   return (
   <div>

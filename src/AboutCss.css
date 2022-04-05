@@ -69,12 +69,29 @@ a{
     font-size: 30px;
     color: #4C9552;
 }
+.CardImg{
+    height: 100px;
+    object-fit: cover;
+}
+.btnCard{
+    width: 150px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 4px;
+}
 .card-body{
-    background-color: #4C9552;
-    color: #ffffff;
+   
+    font-family: 'opensans';
+    
     border-radius: 10px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+}
+.card-text{
+    font-family: 'opensans';
+    font-weight: bold;
+    line-height: 30px;
+
 }
 .card{
     border-radius: 10px;
